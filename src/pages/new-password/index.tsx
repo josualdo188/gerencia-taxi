@@ -1,4 +1,6 @@
-export default function NewPassword() {
+import next from "next";
+
+function NewPassword() {
   return (
     <div className="h-screen w-screen  bg-slate-400 flex items-center justify-center">
       <meta charSet="UTF-8" />
@@ -78,3 +80,5 @@ export default function NewPassword() {
     </div>
   );
 }
+
+export default NewPassword;

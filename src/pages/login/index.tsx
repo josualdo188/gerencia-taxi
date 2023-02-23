@@ -1,10 +1,9 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 import axios from "axios";
-import { eventNames } from "process";
 import Link from "next/link";
 
-export default function Login() {
+function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
@@ -108,3 +107,4 @@ export default function Login() {
     </div>
   );
 }
+export default Login;

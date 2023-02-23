@@ -1,4 +1,5 @@
-export default function Painel() {
+import next from "next";
+function Painel() {
   return (
     <div>
       <title>Painel</title>
@@ -6,3 +7,4 @@ export default function Painel() {
     </div>
   );
 }
+export default Painel;

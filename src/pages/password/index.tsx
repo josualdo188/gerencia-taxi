@@ -1,4 +1,5 @@
-export default function Password() {
+import next from "next";
+function Password() {
   return (
     <div className="h-screen w-screen  bg-slate-400 flex items-center justify-center">
       <meta charSet="UTF-8" />
@@ -59,3 +60,5 @@ export default function Password() {
     </div>
   );
 }
+
+export default Password;

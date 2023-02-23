@@ -1,4 +1,6 @@
-export default function Home() {
+import Link from "next/link";
+
+function users() {
   return (
     <div className="h-screen w-screen  bg-slate-400 flex items-center justify-center">
       <meta charSet="UTF-8" />
@@ -12,12 +14,12 @@ export default function Home() {
         </div>
         <span className="justify-center text-sm text-center text-gray-500 flex-items-center dark:text-gray-400">
           Já tem conta ?
-          <a
+          <Link
             href="/login"
             className="ml-2 text-sm text-blue-500 underline hover:text-blue-700"
           >
             Entrar na conta
-          </a>
+          </Link>
         </span>
         <div className="p-6 mt-4">
           <form action="#">
@@ -114,3 +116,4 @@ export default function Home() {
     </div>
   );
 }
+export default users;
