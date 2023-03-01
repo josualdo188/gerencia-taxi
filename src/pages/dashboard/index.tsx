@@ -18,7 +18,7 @@ function Dashboard() {
                 <div>
                   <Link
                     className="flex items-center justify-start w-full p-2 pl-6 my-2 text-gray-400 transition-colors duration-200 border-l-4 border-transparent hover:text-gray-800"
-                    href="#"
+                    href="/dashboard"
                   >
                     <span className="text-left">
                       <svg
@@ -40,7 +40,7 @@ function Dashboard() {
                   </Link>
                   <Link
                     className="flex items-center justify-start w-full p-2 pl-6 my-2 text-gray-400 transition-colors duration-200 border-l-4 border-transparent hover:text-gray-800"
-                    href="#"
+                    href="/dashboard/motoristas"
                   >
                     <span className="text-left">
                       <svg
@@ -67,7 +67,7 @@ function Dashboard() {
                   </Link>
                   <Link
                     className="flex items-center justify-start w-full p-2 pl-6 my-2 text-gray-400 transition-colors duration-200 border-l-4 border-transparent hover:text-gray-800"
-                    href="#"
+                    href="/dashboard/veiculos"
                   >
                     <span className="text-left">
                       <svg
@@ -89,7 +89,7 @@ function Dashboard() {
                   </Link>
                   <Link
                     className="flex items-center justify-start w-full p-2 pl-6 my-2 text-gray-400 transition-colors duration-200 border-l-4 border-transparent hover:text-gray-800"
-                    href="#"
+                    href="/dashboard/viagens"
                   >
                     <span className="text-left">
                       <svg
